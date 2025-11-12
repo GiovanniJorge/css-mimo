@@ -1,2 +1,2 @@
 # CSS
-Exercícios e Projetos Com Foco em CSS
+Exercícios e Projetos com foco em CSS
