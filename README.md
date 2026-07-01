@@ -1,5 +1,5 @@
 # CSS - Mimo
-Projetos relacionados ao curso "CSS" da Mimo
+Exercícios em linguagem CSS usados nas aulas da Mimo — coleção organizada por tópicos (layouts responsivos, estilização moderna, interatividade com JavaScript e projetos práticos). Ideal para estudantes que querem aprender CSS de forma prática e estruturada.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -21,7 +21,7 @@ Projetos relacionados ao curso "CSS" da Mimo
 - [Autor / Contato](#autor--contato)
 
 ## Visão geral
-Este repositório organiza pequenos projetos de front-end desenvolvidos durante o curso CSS da Mimo. Cada projeto exemplifica conceitos específicos de estilização, layout e interatividade, servindo como portfólio educacional e referência para aprendizado de desenvolvimento web.
+Este repositório organiza pequenos projetos de front-end desenvolvidos durante o curso CSS da Mimo. Cada projeto exemplifica conceitos específicos de estilização, layout e interatividade, serv[...]
 
 ## Estrutura do repositório
 Top-level:
