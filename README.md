@@ -1,41 +1,130 @@
-# Repositório GiovanniJorge/CSS
+# CSS - Mimo
+Projetos relacionados ao curso "CSS" da Mimo
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Sobre
+## Conteúdo principal
+- Projetos práticos focados em aprendizado de CSS, HTML e JavaScript.
+- Estrutura organizada por pastas temáticas, cada uma contendo um projeto completo e independente.
+- Exemplos de estilização moderna, layouts responsivos e interatividade com JavaScript.
 
-Este repositório reúne exercícios e projetos criativos desenvolvidos com foco em CSS (e HTML), visando aprimorar habilidades em estilização, layout responsivo e componentização visual para web. Os exemplos são ideais para estudantes, profissionais em desenvolvimento front-end e entusiastas de design digital.
+## Badges
+- Licença: MIT (ver arquivo LICENSE)
 
-## Estrutura dos diretórios
+## Sumário
+- [Visão geral](#visão-geral)
+- [Estrutura do repositório](#estrutura-do-repositório)
+- [Como utilizar](#como-utilizar)
+- [Boas práticas / recomendações](#boas-práticas--recomendações)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Autor / Contato](#autor--contato)
 
-- [`Coffee Shop Menu`](https://github.com/GiovanniJorge/CSS/tree/main/Coffee%20Shop%20Menu): Menu interativo estilizado para cafeterias.
-- [`Digital Business Card`](https://github.com/GiovanniJorge/CSS/tree/main/Digital%20Business%20Card): Cartão de visita digital moderno.
-- [`Gallery`](https://github.com/GiovanniJorge/CSS/tree/main/Gallery): Galeria de imagens com recursos visuais em CSS.
-- [`Guessing Game`](https://github.com/GiovanniJorge/CSS/tree/main/Guessing%20Game): Jogo de adivinhação estilizado com elementos responsivos.
-- [`Linktree`](https://github.com/GiovanniJorge/CSS/tree/main/Linktree): Página centralizadora de links inspirada no Linktree.
-- [`Unit Converter`](https://github.com/GiovanniJorge/CSS/tree/main/Unit%20Converter): Conversor de unidades com visual clean.
+## Visão geral
+Este repositório organiza pequenos projetos de front-end desenvolvidos durante o curso CSS da Mimo. Cada projeto exemplifica conceitos específicos de estilização, layout e interatividade, servindo como portfólio educacional e referência para aprendizado de desenvolvimento web.
 
-Além disso, o repositório inclui:
-- `.gitattributes`: Configuração de atributos Git
-- [LICENSE (MIT)](https://github.com/GiovanniJorge/CSS/blob/main/LICENSE): Licença MIT
+## Estrutura do repositório
+Top-level:
+- `.gitattributes`                       — Configuração de atributos Git
+- `LICENSE`                              — Licença MIT
+- `README.md`                            — Este arquivo
+- `projetos-gerais/`                     — Projetos principais do curso
+  - `coffee-shop-menu/`                  — Menu interativo para cafeteria (HTML + CSS)
+    - `index.html`
+    - `style.css`
+  - `digital-business-card/`             — Cartão de visita digital (HTML + CSS + JS)
+    - `index.html`
+    - `style.css`
+    - `script.js`
+  - `gallery/`                           — Galeria de imagens com modal (HTML + CSS + JS)
+    - `index.html`
+    - `style.css`
+    - `script.js`
+  - `guessing-game/`                     — Jogo de adivinhação (HTML + CSS + JS)
+  - `linktree/`                          — Página centralizadora de links (HTML + CSS)
+  - `unit-converter/`                    — Conversor de unidades (HTML + CSS + JS)
+
+Como se encaixa:
+- Cada pasta contém um projeto independente.
+- Cada projeto é aberto diretamente no navegador (não requer build ou instalação).
+- Alguns projetos usam JavaScript simples para adicionar interatividade aos estilos CSS.
 
 ## Como utilizar
 
-1. Clone o repositório:
+### Clonar o repositório
+```bash
+git clone https://github.com/GiovanniJorge/css-mimo.git
+cd css-mimo
+```
+
+### Abrir um projeto
+1. Navegue até a pasta do projeto desejado:
    ```bash
-   git clone https://github.com/GiovanniJorge/CSS.git
+   cd projetos-gerais/coffee-shop-menu
    ```
-2. Acesse o diretório de interesse e abra os arquivos `.html` em seu navegador para visualizar os projetos.
-3. Sinta-se à vontade para modificar os estilos e testar novas ideias!
 
-## Contribuição
+2. Abra o arquivo `index.html` no seu navegador:
+   - **Windows:** clique duas vezes no arquivo
+   - **macOS/Linux:** clique com botão direito → "Abrir com" → navegador
+   - **Linha de comando:**
+     ```bash
+     # macOS
+     open index.html
+     
+     # Linux
+     xdg-open index.html
+     
+     # Windows
+     start index.html
+     ```
 
-Sugestões, correções ou novos projetos são bem-vindos! Para contribuir, abra uma issue ou pull request.
+### Modificar e testar
+Abra os arquivos em um editor de texto (VS Code, Sublime, etc.) e salve. O navegador recarregará automaticamente (com live reload extension) ou você pode recarregar manualmente (F5).
+
+## Boas práticas / recomendações
+
+### Desenvolvimento
+- Use um editor de código como VS Code com extensões úteis (Live Server, Prettier, CSS Peek).
+- Mantenha a estrutura de pastas simples: um projeto por pasta com seus arquivos HTML, CSS e JS.
+- Prefira nomes de arquivo em minúsculas e sem espaços (ex.: `style.css`, não `Style CSS.css`).
+
+### CSS
+- Organise estilos em ordem: reset/normalize, tipografia, layout, componentes, utilidades.
+- Use classes descritivas (BEM ou similar) para evitar conflitos de estilos.
+- Teste responsividade com ferramentas do navegador (F12 → Device Emulation).
+
+### HTML
+- Use semântica HTML5 adequada (`<header>`, `<nav>`, `<section>`, `<footer>`, etc.).
+- Sempre inclua atributo `alt` em imagens para acessibilidade.
+- Valide seu HTML com [W3C Validator](https://validator.w3.org/).
+
+### JavaScript
+- Mantenha o JS simples e bem comentado, focando em aprendizado.
+- Separe lógica de comportamento (script.js) de estrutura (index.html) e estilo (style.css).
+- Teste no console do navegador (F12 → Console) para debug.
+
+## Contribuindo
+Contribuições são bem-vindas! Fluxo sugerido:
+
+1. Fork do repositório
+2. Criar branch com nome descritivo: `feature/novo-projeto` ou `fix/melhorias-css`
+3. Fazer commits atômicos com mensagens claras
+4. Abrir Pull Request descrevendo as mudanças
+
+Sugestões adicionais:
+- Adicione um pequeno `README.md` em cada pasta de projeto explicando seu objetivo e conceitos aprendidos
+- Inclua comentários no código explicando técnicas CSS/JS interessantes
+- Se adicionar novo projeto, atualize a lista na seção "Estrutura do repositório"
+
+## Testes e validação (opcional)
+- Validar HTML: [W3C Markup Validator](https://validator.w3.org/)
+- Validar CSS: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Testar responsividade em múltiplos dispositivos
 
 ## Licença
+Este repositório utiliza a licença MIT — consulte o arquivo `LICENSE` na raiz.
 
-Este projeto está sob a Licença MIT. Consulte o arquivo [LICENSE](https://github.com/GiovanniJorge/CSS/blob/main/LICENSE) para mais detalhes.
-
----
-
-**Autor:** [Giovanni Jorge](https://github.com/GiovanniJorge)
+## Autor / Contato
+Autor: Giovanni Jorge  
+GitHub: [@GiovanniJorge](https://github.com/GiovanniJorge)  
+Repositório: https://github.com/GiovanniJorge/css-mimo
