@@ -1,8 +1,6 @@
 # CSS - Mimo
 Exercícios em linguagem CSS usados nas aulas da Mimo — coleção organizada por tópicos (layouts responsivos, estilização moderna, interatividade com JavaScript e projetos práticos). Ideal para estudantes que querem aprender CSS de forma prática e estruturada.
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ## Conteúdo principal
 - Projetos práticos focados em aprendizado de CSS, HTML e JavaScript.
 - Estrutura organizada por pastas temáticas, cada uma contendo um projeto completo e independente.
@@ -126,5 +124,4 @@ Este repositório utiliza a licença MIT — consulte o arquivo `LICENSE` na rai
 
 ## Autor / Contato
 Autor: Giovanni Jorge  
-GitHub: [@GiovanniJorge](https://github.com/GiovanniJorge)  
 Repositório: https://github.com/GiovanniJorge/css-mimo
