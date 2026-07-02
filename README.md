@@ -9,6 +9,7 @@ Exercícios em linguagem CSS usados nas aulas da Mimo — coleção organizada p
 
 ## Badges
 ![Licença](https://img.shields.io/github/license/GiovanniJorge/css-mimo?style=flat-square)
+![Projetos](https://img.shields.io/badge/quantidade-6%20projetos-blue?style=flat-square)
 
 ## Sumário
 - [Visão geral](#visão-geral)
