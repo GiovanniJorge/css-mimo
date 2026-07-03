@@ -27,23 +27,24 @@ Este repositório organiza pequenos projetos de front-end desenvolvidos durante 
 Top-level:
 ```text
 ├── .gitattributes
-├── LICENSE                  # Licença MIT
-├── README.md                # Este arquivo
-└── projetos-gerais/         # Projetos principais do curso
-    ├── coffee-shop-menu/    # Menu interativo para cafeteria (HTML + CSS)
+├── .gitignore
+├── LICENSE                      # Licença MIT
+├── README.md                    # Este arquivo
+└── projetos-gerais/             # Projetos principais do curso
+    ├── coffee-shop-menu/        # Menu interativo para cafeteria (HTML + CSS)
     │   ├── index.html
     │   └── style.css
-    ├── digital-business-card/ # Cartão de visita digital (HTML + CSS + JS)
+    ├── digital-business-card/   # Cartão de visita digital (HTML + CSS + JS)
     │   ├── index.html
     │   ├── style.css
     │   └── script.js
-    ├── gallery/             # Galeria de imagens com modal (HTML + CSS + JS)
+    ├── gallery/                 # Galeria de imagens com modal (HTML + CSS + JS)
     │   ├── index.html
     │   ├── style.css
     │   └── script.js
-    ├── guessing-game/       # Jogo de adivinhação (HTML + CSS + JS)
-    ├── linktree/            # Página centralizadora de links (HTML + CSS)
-    └── unit-converter/      # Conversor de unidades (HTML + CSS + JS)
+    ├── guessing-game/           # Jogo de adivinhação (HTML + CSS + JS)
+    ├── linktree/                # Página centralizadora de links (HTML + CSS)
+    └── unit-converter/          # Conversor de unidades (HTML + CSS + JS)
 ```
 
 ### Como se encaixa:
